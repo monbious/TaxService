@@ -1,0 +1,19 @@
+2019-05-08 09:05:28,472:INFO main (StartupInfoLogger.java:50) - Starting TaxServiceApplication on DESKTOP-EV8K64K with PID 15584 (C:\sts-bundle\sts-workspace\TaxService\target\classes started by june in C:\sts-bundle\sts-workspace\TaxService)
+2019-05-08 09:05:28,482:INFO main (SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+2019-05-08 09:05:28,909:WARN main (Logger.java:44) - No MyBatis mapper was found in '[cn.zzybzf]' package. Please check your configuration.
+2019-05-08 09:05:29,318:INFO main (TomcatWebServer.java:90) - Tomcat initialized with port(s): 80 (http)
+2019-05-08 09:05:29,331:INFO main (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-80"]
+2019-05-08 09:05:29,338:INFO main (DirectJDKLog.java:173) - Starting service [Tomcat]
+2019-05-08 09:05:29,338:INFO main (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-08 09:05:29,343:INFO main (DirectJDKLog.java:173) - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-05-08 09:05:29,344:INFO main (DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-05-08 09:05:29,344:INFO main (DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-08 09:05:29,344:INFO main (DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-08 09:05:30,400:INFO main (DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-05-08 09:05:30,473:INFO main (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2019-05-08 09:05:30,473:INFO main (ServletWebServerApplicationContext.java:296) - Root WebApplicationContext: initialization completed in 1935 ms
+2019-05-08 09:05:30,566:WARN main (DruidAbstractDataSource.java:1176) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2019-05-08 09:05:30,873:INFO main (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 09:05:31,023:INFO main (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-80"]
+2019-05-08 09:05:31,042:INFO main (TomcatWebServer.java:204) - Tomcat started on port(s): 80 (http) with context path ''
+2019-05-08 09:05:31,044:INFO main (StartupInfoLogger.java:59) - Started TaxServiceApplication in 2.83 seconds (JVM running for 3.813)

@@ -1,0 +1,22 @@
+server:
+  port: 80
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@192.168.1.109:1521:data
+    username: dtax
+    password: root
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html; charset=utf-8
+    cache: false
+mybatis:
+  mapper-locations:
+  - classpath:mapper/*.xml
+  type-aliases-package: cn.zzybzf.util
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true

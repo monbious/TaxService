@@ -1,0 +1,27 @@
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="TaxMapper">
+
+	<select id="listAmountInfosByAccount" parameterType="PageData" resultType="PageData">
+		select ACCOUNT, IN_OR_OUT, TRADE_AMOUNT, OTHER_ACCOUNT, OTHER_ACCOUNT_NAME 
+		from 
+		DTAX_AMOUNT_INOUT_INFOS 
+		where 
+			ACCOUNT = #{ACCOUNT}
+			and OTHER_ACCOUNT IS NOT NULL and other_account not in (${P_ACCOUNT_RESULT})
+		<if test="IN_OR_OUT != null and IN_OR_OUT != ''">
+			and IN_OR_OUT = #{IN_OR_OUT}
+		</if>
+	</select>
+	
+	<select id="getChildrenAccounts" parameterType="PageData" resultType="PageData">
+		
+	</select>
+	
+	<select id="hello" resultType="map">
+		select 'world' hello from dual
+	</select>
+
+</mapper>
